@@ -33,20 +33,15 @@ public class QuadraticEquation {
     }
 
     public  void getRoot1() {
-        double r1;
-        if (getDiscriminant()>0){
-             r1 = (-this.b + Math.sqrt(getDiscriminant()))/(2*this.a);
+        double r1 = (-this.b + Math.sqrt(getDiscriminant()))/(2*this.a);
             System.out.println("Nghệm thứ 1 là: "+r1);
 
-        }
     }
 
     public  void getRoot2() {
-        double r2;
-        if (getDiscriminant()>0){
-            r2 = (-this.b - Math.sqrt(getDiscriminant()))/(2*this.a);
+        double r2 = (-this.b - Math.sqrt(getDiscriminant()))/(2*this.a);
             System.out.println("Nghiệm thứ 2 là: "+r2);
-        }
+
     }
 
 
